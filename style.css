@@ -7,6 +7,11 @@ body {
 	height: 100%;
 }
 
+@font-face {
+    font-family: 'Starjedi';
+    src: url(Starjedi.ttf);
+}
+
 .dd-container{
 	display: flex;
 	flex-direction: column;
@@ -55,4 +60,26 @@ body {
 	width: 96%;
 	top: 40%;
 	left: 2%;
+}
+
+.modal-content {
+	-webkit-box-shadow: 0px 0px 17px 4px rgba(224,106,52,1);
+	-moz-box-shadow: 0px 0px 17px 4px rgba(224,106,52,1);
+	box-shadow: 0px 0px 17px 4px rgba(224,106,52,1);
+	background-color: rgba(37, 73, 95, 0.80);
+}
+
+.modal-title {
+	color: #FFF;
+	font-family: 'Starjedi';
+}
+
+.modal-body {
+	color: #FFF;
+	font-family: 'Starjedi';
+	font-size: 30px;
+}
+
+.modal-dialog {
+  	margin: 26% auto;
 }
