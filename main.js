@@ -11,4 +11,9 @@ $(function () {
     	}
     });
 
+    $('.ui-slider-handle').popover({
+    	content: 'Rueda el slider',
+    	placement: 'top'    	
+    }).popover('show');
+
 });

@@ -52,7 +52,7 @@ body {
 	position: relative;
 	align-self: flex-end;
 	height: 50px;
-	width: 100%	
+	width: 100%;	
 }
 
 .slider {
@@ -60,6 +60,16 @@ body {
 	width: 96%;
 	top: 40%;
 	left: 2%;
+	background: #ED6A22;
+
+	-webkit-box-shadow: inset 1px 1px 2px 2px rgb(186, 72, 8);
+	-moz-box-shadow: inset 1px 1px 2px 2px rgb(186, 72, 8);
+	box-shadow: inset 1px 1px 2px 2px rgb(186, 72, 8);
+	
+}
+
+.slider .ui-slider-handle {
+	background: #34444F;
 }
 
 .modal-content {
@@ -78,6 +88,7 @@ body {
 	color: #FFF;
 	font-family: 'Starjedi';
 	font-size: 30px;
+	padding: 40px;
 }
 
 .modal-dialog {
